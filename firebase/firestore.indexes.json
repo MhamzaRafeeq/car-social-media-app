@@ -1,0 +1,60 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "Comments",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "Post_ref",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "DatreCreated",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "User",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "City",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "rankInWeek",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Notifications",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "notifiedToUser",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "DateCreated",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Posts",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "PostedBy",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "DateCreated",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ]
+}

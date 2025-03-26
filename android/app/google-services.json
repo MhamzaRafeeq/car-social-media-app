@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1031210832191",
+    "firebase_url": "https://social-media-app-9478d-default-rtdb.firebaseio.com",
+    "project_id": "social-media-app-9478d",
+    "storage_bucket": "social-media-app-9478d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031210832191:android:f191dfae45d5a7a552c38a",
+        "android_client_info": {
+          "package_name": "com.mycompany.carsocialmediaapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBV-EIwpHOGuuPKsxv3ccDETXqhQnr5mBc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
