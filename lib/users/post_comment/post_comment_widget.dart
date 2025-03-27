@@ -789,8 +789,8 @@ class _PostCommentWidgetState extends State<PostCommentWidget> {
                                             2.0, 0.0, 0.0, 2.0),
                                         child: Icon(
                                           Icons.send_sharp,
-                                          color: FlutterFlowTheme.of(context)
-                                              .secondaryBackground,
+                                          color:
+                                              FlutterFlowTheme.of(context).info,
                                           size: 25.0,
                                         ),
                                       ),

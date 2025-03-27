@@ -7,6 +7,7 @@ import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/custom_functions.dart' as functions;
 import '/index.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'homefeed_model.dart';
 export 'homefeed_model.dart';
 
@@ -314,12 +315,11 @@ class _HomefeedWidgetState extends State<HomefeedWidget>
                             if (!snapshot.hasData) {
                               return Center(
                                 child: SizedBox(
-                                  width: 50.0,
-                                  height: 50.0,
-                                  child: CircularProgressIndicator(
-                                    valueColor: AlwaysStoppedAnimation<Color>(
-                                      FlutterFlowTheme.of(context).primary,
-                                    ),
+                                  width: 40.0,
+                                  height: 40.0,
+                                  child: SpinKitRipple(
+                                    color: FlutterFlowTheme.of(context).primary,
+                                    size: 40.0,
                                   ),
                                 ),
                               );
@@ -375,16 +375,13 @@ class _HomefeedWidgetState extends State<HomefeedWidget>
                                           if (!snapshot.hasData) {
                                             return Center(
                                               child: SizedBox(
-                                                width: 50.0,
-                                                height: 50.0,
-                                                child:
-                                                    CircularProgressIndicator(
-                                                  valueColor:
-                                                      AlwaysStoppedAnimation<
-                                                          Color>(
-                                                    FlutterFlowTheme.of(context)
-                                                        .primary,
-                                                  ),
+                                                width: 40.0,
+                                                height: 40.0,
+                                                child: SpinKitDoubleBounce(
+                                                  color: FlutterFlowTheme.of(
+                                                          context)
+                                                      .primary,
+                                                  size: 40.0,
                                                 ),
                                               ),
                                             );

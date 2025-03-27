@@ -169,7 +169,7 @@ class _LeaderboardRankWidgetState extends State<LeaderboardRankWidget>
                                             .primaryText,
                                         unselectedLabelColor:
                                             FlutterFlowTheme.of(context)
-                                                .secondaryBackground,
+                                                .secondaryText,
                                         labelPadding:
                                             EdgeInsetsDirectional.fromSTEB(
                                                 32.0, 0.0, 32.0, 0.0),
@@ -428,8 +428,8 @@ class _LeaderboardRankWidgetState extends State<LeaderboardRankWidget>
                                                                               0.4,
                                                                       decoration:
                                                                           BoxDecoration(
-                                                                        color: FlutterFlowTheme.of(context)
-                                                                            .secondaryBackground,
+                                                                        color: Colors
+                                                                            .white,
                                                                         borderRadius:
                                                                             BorderRadius.only(
                                                                           bottomLeft:
@@ -600,7 +600,7 @@ class _LeaderboardRankWidgetState extends State<LeaderboardRankWidget>
                                                                           0xFF181143),
                                                                       FlutterFlowTheme.of(
                                                                               context)
-                                                                          .primaryBackground,
+                                                                          .accent1,
                                                                       FlutterFlowTheme.of(
                                                                               context)
                                                                           .primaryText

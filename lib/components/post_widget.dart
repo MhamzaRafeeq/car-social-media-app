@@ -152,6 +152,8 @@ class _PostWidgetState extends State<PostWidget> {
                                           photosItem,
                                           'https://www.shutterstock.com/image-vector/gallery-icon-add-photo-symbol-260nw-2018395820.jpg',
                                         ),
+                                        width: 300.0,
+                                        height: 300.0,
                                         fit: BoxFit.cover,
                                       ),
                                     );

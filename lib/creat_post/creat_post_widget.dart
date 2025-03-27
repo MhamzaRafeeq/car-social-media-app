@@ -279,10 +279,8 @@ class _CreatPostWidgetState extends State<CreatPostWidget> {
                                   child: ClipRRect(
                                     borderRadius: BorderRadius.circular(8.0),
                                     child: Image.network(
-                                      valueOrDefault<String>(
-                                        photosUploadedItem,
-                                        'https://www.shutterstock.com/image-vector/gallery-icon-add-photo-symbol-260nw-2018395820.jpg',
-                                      ),
+                                      _model.uploadedFileUrls.elementAtOrNull(
+                                          photosUploadedIndex)!,
                                       fit: BoxFit.cover,
                                     ),
                                   ),
